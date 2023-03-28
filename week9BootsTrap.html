@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bootstrap</title>
+    <link rel="stylesheet"href="/node_modules/bootstrap/dist/css/bootstrap.css"/>
+</head>
+
+<body class="bg-transparent">
+
+  <!-- Navbar content -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+          <a href="#" class="navbar-brand fs-4">Clasic</a>
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse1">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse1">
+              <div class="navbar-nav">
+                  <a href="#" class="nav-item nav-link active fs-4">Home</a>
+                  <a href="#" class="nav-item nav-link fs-4">About</a>
+                  <a href="#" class="nav-item nav-link fs-4">Products</a>
+              </div>
+              <form class="d-flex ms-auto">
+                  <input type="text" class="form-control me-sm-2" placeholder="Search">
+                  <button type="submit" class="btn btn-outline-light fs-5">Search</button>
+              </form>
+          </div>
+      </div>
+    </div>
+  </nav>
+
+ 
+
+
+    
+  
+ <!-- img 
+  <div 
+    id="main-container" class="container pb-6 bg-transparent" >
+  </div>
+
+  <div>
+    <img id="main-container" 
+    src="Mountain.jpg" 
+    class="img-fluid" 
+    alt="mountain clasic," 
+    width="2500"/> 
+  </div> -->
+
+  <div class="position-relative">
+      <img src="Mountain.jpg" alt="Your Image" class="img-fluid" width="2300"> 
+    <div class="position-absolute top-0 start-50 translate-middle-x">
+      <h2 class="position-center fs-1 ">This is Clasic</h2>
+
+     <div class="btn-center">
+       <button type="button" class="btn  btn-outline-primary  btn-lg  btn-center  fw-bold "> Get Started </button>
+       <button type="button" class="btn  btn-outline-light  btn-lg  fw-bold"> Get Demo </button>
+    </div>
+    </div>
+  </div>
+      
+
+<!-- table -->
+<div class="container mt-3">
+  <h2>Hover Rows</h2>
+  <p>The .table-hover class enables a hover state (grey background on mouse over) on table rows:</p>            
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+       
+
+  <!-- Form -->
+      
+ <div class="container"> <br> <br>
+ 
+  <form class="form-inline" action="/action_page.php">
+    <div class="form-group fs-5">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+
+    <div class="form-group fs-5">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+    </div>
+
+    <div class="checkbox fs-5">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div> <br>
+
+    <button type="submit" class="btn btn-outline-dark fs-5">Submit</button> <br><br><br>
+    
+  </form>
+ </div>
+
+<!-- input Comment -->
+
+  <div class="container fs-5">
+   <form>
+      <div class="form-group">
+        <label for="comment fs-5">Comment:</label>
+        <textarea class="form-control" rows="5" id="comment"></textarea>
+      </div>
+   </form>
+  </div>
+ <!----- SECTION 7 ----->
+ <footer class="text-center p">Saeed Adem ©️2023</footer> 
+</body>
+</html>
